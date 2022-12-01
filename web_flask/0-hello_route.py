@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 """Script that starts a Flask web application"""
+
 from flask import Flask
 
 
 app = Flask(__name__)
 
 
-@app.route("/", strict_slashes = False)
+@app.route("/", strict_slashes=False)
 def index():
     """Function that return Hello HBNB"""
     return "Hello HBNB!"
