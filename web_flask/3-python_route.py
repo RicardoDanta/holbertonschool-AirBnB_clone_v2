@@ -31,7 +31,7 @@ def c_text(text):
 def p_text(text="is cool"):
     """Function that return C followed
     by the value of the text variable"""
-    return "C {}".format(text.replace("_", " "))
+    return "Python {}".format(text.replace("_", " "))
 
 
 if __name__ == "__main__":
