@@ -23,7 +23,7 @@ def hbnb():
 def hbnb(text):
     """Function that return C followed
     by the value of the text variable"""
-    return "C {}.format(text.replace("_"), (" "))"
+    return "C {}".format(text.replace("_", " "))
 
 
 if __name__ == "__main__":
