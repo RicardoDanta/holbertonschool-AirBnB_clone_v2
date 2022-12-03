@@ -53,7 +53,7 @@ def number_template(n):
 def odd_or_even(n):
     """Function that return a text
     but only if the variable is an integer"""
-    if (n % 2) == 0:
+    if n % 2 == 0:
         addeven = "{} is even".format(n)
     else:
         addeven = "{} is odd".format(n)
