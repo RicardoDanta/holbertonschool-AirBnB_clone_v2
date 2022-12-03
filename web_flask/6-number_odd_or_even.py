@@ -57,7 +57,7 @@ def odd_or_even(n):
         oddeven = "{} is even".format(n)
     else:
         oddeven = "{} is odd".format(n)
-    return render_template("5-numer_odd_or_even.html", oddeven)
+    return render_template("5-numer_odd_or_even.html", oe=oddeven)
 
 
 if __name__ == "__main__":
