@@ -9,9 +9,9 @@ app = Flask(__name__)
 
 
 @app.teardown_appcontext
-def teardown_appcontext():
+def teardown_appcontext(self):
     """Method to handle app.teardown_appcontext"""
-    storage.close()
+    self.storage.close()
 
 
 @app.route("/states_list", strict_slashes=False)
